@@ -1,6 +1,6 @@
 Dies ist eine Ideen/Hardware Sammlung für Citizen Science Projekte in den OK Labs.
 ===
-Folgende Labs: Wuppertal, Berlin, Karlsruhe und Leipzig werden in 2015 am Projekt "Hack your City" (www.hackyourcity.de) mitmachen und einen Citizen Science Schwerpunkt haben. Alle weiteren Labs Willkommen sich an Citizen Science Projekten zu beteiligen bzw. eigene Projekte zu starten.
+Folgende Labs: Wuppertal, Berlin, Karlsruhe und Leipzig werden in 2015 am Projekt "Hack your City" (www.hackyourcity.de) mitmachen und einen Citizen Science Schwerpunkt haben. Alle weiteren Labs sind willkommen, sich an Citizen Science Projekten zu beteiligen bzw. eigene Projekte zu starten.
 
 Dieses Pad dient der Sammlung von Projekten und Hardware.
 
@@ -61,10 +61,10 @@ Projektsammlung (International): https://docs.google.com/document/d/1_qDSZVPesIp
 ##### Ethernet
 * Beispiele:
 * http://arduino.cc/en/Main/ArduinoEthernetShield
-* Vorteil:
+* Vorteile:
  * Stromversorgung möglich
  * Relativ Preisgünstig
-* Nachteil
+* Nachteile:
  * Sensoren müssen meist im Freien angebracht werden -> Verlegen von zusätzlichen Kabel eher schwer
  * WLAN
 * Beispiele:
@@ -110,11 +110,11 @@ Projektsammlung (International): https://docs.google.com/document/d/1_qDSZVPesIp
 * AES-Verschlüsselung
 * CRC
 * 66 Byte FIFO
-* Vorteil:
+* Vorteile:
  * Je nach Frequenz größere Entfernungen überbrückbar
  * Stromsparend
  * Antenne relativ einfach möglich (Stückdrat mit Länge x)
-* Nachteil:
+* Nachteile:
  * Protokoll für Sensornetz muss selbst entwickelt werden
  * Einbindung in bestehende Infrastruktur nur über zusätzlichen Gateway möglich
 
@@ -145,9 +145,9 @@ Projektsammlung (International): https://docs.google.com/document/d/1_qDSZVPesIp
  * Luftfeuchtigkeit: 0-100% 2-5% Genauigkeit
  * Geschwindigkeit: Neue Messwerte alle 2 Sekunden und gleitender Mittelwert
  * Spannung: 3.3 bis 6V
-* Vorteil
+* Vorteile:
  * Vergleichbar günstig
-* Nachteil
+* Nachteile:
  * Kommunikationsprotokoll ist proprietär
  * Nicht für außen/im Freien geeignet oder bei zu hoher Luftfeuchtigkeit geeignet!
 
@@ -174,11 +174,11 @@ Projektsammlung (International): https://docs.google.com/document/d/1_qDSZVPesIp
  * Strom:
      * Aktiv: 22uA (bei 1Hz Messrate); max 850uA
      * Standby: < 1uA
- * Vorteil:
+ * Vorteile:
      * Sehr guter und sehr schneller (kein gleitender Mittelwer) Sensor
      * I2C-Kommunikation
      * Kann problemlos auch im Freien benutzt werden
- * Nachteil
+ * Nachteile:
      * Leider recht teuer
 
 
@@ -201,7 +201,7 @@ leer
  * I2C Schnittstelle
  * Ausreichender Temperaturbereich
  * Spannung
-* Nachteil
+* Nachteile:
  * Spannungsregler (wenn er zu viel Strom verbraucht)
 
 ##### Adafruit TSL2561 digitaler Lichtsensor
@@ -214,20 +214,20 @@ leer
  * Strom:
  * Aktiv: 0.5mA
  * Power down: 15uA
-* Vorteil
+* Vorteile:
  * I2C Schnittstelle
  * Ausreichender Temperaturbereich
  * Spannung
  * Sehr geringer Stromverbrauch
-* Nachteile
+* Nachteile:
  * Nicht für 5V Arduino geeignet
 
 ## Luftverschmutzung und Feinstaub
 ##### Sensortypen
 * Sharp GP2Y1010AU0F
- * Vorteil: 
+ * Vorteile: 
 	 * günstig (nur ca 5€), verbraucht wenig Energie (0,1W im Betrieb bei 5V)
- * Nachteil: 
+ * Nachteile: 
 	 * kommt unkalibriert daher und Volumen der durchströhmenden Luft ist abhängig vom Versuchsaufbau. Somit lassen sich meiner Meinung nach Messungen von DIY-Gerät1 (mit Lüfter) nicht mit Messungen von DIY-Gerät 2 (ohne Lüfter) vergleichen.
  * Quellen:
  	* Datenblatt: http://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/GP2Y1010AU.pdf
@@ -236,10 +236,10 @@ leer
  * Kurzbeschreibung: "Grove is a modulated, ready-to-use tool set. Much like Lego, it takes a building block approach to assembling electronics." Quelle: http://www.seeedstudio.com/wiki/GROVE_System
  * Der Dust Sensor ist ein Sensor zum messen von Teilchen die größer 1µm sind
  * Der Sensor muss immer aufgehangen werden (siehe oberen beiden Bilder: http://www.howmuchsnow.com/arduino/airquality/grovedust/)
- * Vorteil: 
+ * Vorteile: 
  	* Wird bereits über die beiden Potentiometer kalibriert ausgeliefert, er besitzt eine eigene Wärmequelle und sorgt somit für einen konstanten Luftstrom durch die Lichtschranke. Ein Lüfter wird nicht benötigt.
  	* Muss 3 Minuten vorheizen
- * Nachteil: 
+ * Nachteile: 
      * Etwas höherer Energieverbrauch gegenüber den Sharp-Sensor (0,45W im Betrieb bei 5V), etwas teurer (15 bis 25 Euro)
  * Quellen:
  	* Datenblatt: http://www.sca-shinyei.com/pdf/PPD42NS.pdf
