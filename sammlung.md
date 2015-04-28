@@ -54,7 +54,7 @@ Projektsammlung (International): https://docs.google.com/document/d/1_qDSZVPesIp
 * Nur das was wirklich benötigt wird
 * Stromsparender als Arduino
 * eventuell Günstiger
-* Nachteil
+* Nachteil:
 * Schaltungsentwurf und -herstellung notwendig
 
 ## Übertragung
@@ -76,13 +76,13 @@ Projektsammlung (International): https://docs.google.com/document/d/1_qDSZVPesIp
 * https://nurdspace.nl/ESP8266
 * http://www.esp8266.com/
 * http://hackaday.com/2014/12/17/esp-gets-fcc-and-ce/
-* Vorteile
+* Vorteile:
  * ESP8266 sehr preiswert
  * Nutzung von vorhandenen Infrastrukturen (Freifunk ...)
-* Nachteile
+* Nachteile:
  * Im Vergleich zu anderen Funktechniken relativ kurze Reichweite
  * Z-Wave
-* Beispiele
+* Beispiele:
  * http://de.wikipedia.org/wiki/Z-Wave
  * http://www.zwave.de/
 * Gedacht für Homeautomation
@@ -114,7 +114,7 @@ Projektsammlung (International): https://docs.google.com/document/d/1_qDSZVPesIp
  * Je nach Frequenz größere Entfernungen überbrückbar
  * Stromsparend
  * Antenne relativ einfach möglich (Stückdrat mit Länge x)
-* Nachteil
+* Nachteil:
  * Protokoll für Sensornetz muss selbst entwickelt werden
  * Einbindung in bestehende Infrastruktur nur über zusätzlichen Gateway möglich
 
